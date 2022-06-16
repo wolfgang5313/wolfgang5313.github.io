@@ -1,6 +1,2 @@
 theme: jekyll-theme-minimal
 title: Jonathan Lee
-posts:
-  post1:
-    text: test
-    url: ./posts
