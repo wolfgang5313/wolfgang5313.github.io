@@ -14,6 +14,6 @@ if you'd like there's also an html version on the site, as well links to my prof
 
 [YouTube](https://www.youtube.com/channel/UCH93pk74OSkVdBTJJJXqlTQ)
 
-[Posts](https://www.wolfgang.github.io/posts)
+[Posts](./posts.md)
 
 ## Work Experience
