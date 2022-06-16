@@ -1,0 +1,17 @@
+{
+  "name": "jonathansblog",
+  "version": "1.0.0",
+  "description": "My own little blog, where I talk about various subjects related to my field of work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan M Lee",
+  "license": "ISC",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "requirejs": "^2.3.6"
+  }
+}

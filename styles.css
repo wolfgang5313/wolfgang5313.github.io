@@ -1,0 +1,230 @@
+.noselect { /* Can be used to make text unhighlightable and so forth */
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.socialLink:hover {
+    color: lightsalmon;
+}
+
+
+
+.topAndBottomContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100%;
+}
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    order: 0;
+    flex: 1;
+}
+#bottom {
+    width: 100%;
+    order: 1;
+    height: 80px;
+    background-color: gray;
+    flex: 0 0 auto;
+}
+
+#contentContainer {
+    width: 80%;
+    flex: 1;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+#headerSection {
+    padding: 5px 5px 5px 5px;
+    flex: 0 0 auto;
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+#headerBuffer {
+    height: 100px;
+}
+#siteLinksAndDropdowns {
+    flex: 1;
+    order: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+.headerLink {
+    font-size: large;
+    flex: 0 0 auto;
+    height: fit-content;
+    padding: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.headerLink>a:hover {
+    color: lightsalmon;
+}
+#searchBarAndSocialMediaLinks {
+    flex: 1;
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+
+
+#contentSection {
+    flex: 1;
+    order: 1;
+    background-color: lightsalmon;
+    width: 80%;
+}
+.post {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.postMeta {
+    width: 60%;
+    flex: 0 0 auto;
+    padding: 8px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.postTitle {
+    font-size: large;
+    overflow: hidden;
+    white-space: pre-wrap;      /* Webkit */    
+    white-space: -moz-pre-wrap; /* Firefox */     
+    white-space: -pre-wrap;     /* Opera <7 */    
+    white-space: -o-pre-wrap;   /* Opera 7 */     
+    word-wrap: break-word;      /* IE */
+    min-width: 0;
+     cursor: pointer;
+     -webkit-touch-callout: none; /* iOS Safari */
+       -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+           -ms-user-select: none; /* Internet Explorer/Edge */
+               user-select: none; /* Non-prefixed version, currently
+                                     supported by Chrome, Opera and Firefox */
+}
+
+.breaking_wrap {
+    text-align: left;
+    white-space: pre-wrap;      /* Webkit */    
+    white-space: -moz-pre-wrap; /* Firefox */     
+    white-space: -pre-wrap;     /* Opera <7 */    
+    white-space: -o-pre-wrap;   /* Opera 7 */     
+    word-wrap: break-word;      /* IE */ 
+    overflow: hidden;
+    min-width: 0;
+}
+
+.postContent {
+    flex: 1;
+    padding: 8px;
+    text-align: left;
+    white-space: pre-wrap;      /* Webkit */    
+    white-space: -moz-pre-wrap; /* Firefox */     
+    white-space: -pre-wrap;     /* Opera <7 */    
+    white-space: -o-pre-wrap;   /* Opera 7 */     
+    word-wrap: break-word;      /* IE */ 
+    overflow: hidden;
+    min-width: 0;
+     cursor: pointer;
+     -webkit-touch-callout: none; /* iOS Safari */
+       -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+          -moz-user-select: none; /* Old versions of Firefox */
+           -ms-user-select: none; /* Internet Explorer/Edge */
+               user-select: none; /* Non-prefixed version, currently
+                                     supported by Chrome, Opera and Firefox */
+}
+.condensedPost {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.condensedPostTitle {
+    font-size: large;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+.condensedPostContent {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+.dropDownBreak {
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 0;
+    height: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.breaking_wrap > p {
+    margin: 0;
+    padding: 0px auto;
+}
+
+.gutter {
+    width: 8px;
+}
+
+@media screen and (min-width: 900px)
+{
+    .gutter {
+        width: 10%;
+    }
+    
+}
+
+@media screen and (min-width: 500px)
+{
+    #about_me_content {
+        display: flex;
+    }
+}
+
+
